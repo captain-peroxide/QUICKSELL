@@ -10,13 +10,14 @@ To run this application, you need to have Python installed on your machine. Foll
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
-   cd repository-name
+   git clone https://github.com/captain-peroxide/QUICKSELL.git
+   cd QUICKSELL
+   
 2. **Install Required Packages:**
 Make sure you have gradio and any other dependencies installed. You can do this using pip:
-```bash
-pip install gradio
-```
+   ```bash
+   pip install gradio
+   ```
 3.**Local Imports:**
 Ensure that the following modules are available in your project:
 models.llms (for model handling)
@@ -24,8 +25,8 @@ controllers.chatbot_controller (for chatbot logic)
 
 **Usage**
 To run the chatbot application, execute the following command in your terminal:
-```bash
-python main.py
-```
+   ```bash
+   python main.py
+   ```
 Replace your_script_name.py with the name of your Python file containing the code.
 Once the application is running, open your web browser and navigate to http://localhost:11434 to interact with the chatbot.
